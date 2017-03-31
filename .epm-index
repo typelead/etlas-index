@@ -1,0 +1,2 @@
+pkg: eta-spark 0.1.0.0 p# packages/eta-spark/0.1.0.0/eta-spark.cabal
+pkg: eta-jdbc 0.1.0.0 p# packages/eta-jdbc/0.1.0.0/eta-jdbc.cabal

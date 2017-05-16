@@ -1,5 +1,9 @@
 # Index for Etlas, the Eta Package Repository
 
+## Quick Jump
+- [Package Listing](#package-listing)
+- [Submitting a Package](#submitting-a-package)
+
 ## Package Listing
 
 - [eta-spark-0.1.0.0](https://github.com/Jyothsnasrinivas/eta-spark) - Eta bindings for Apache Spark

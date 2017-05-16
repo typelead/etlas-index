@@ -8,6 +8,7 @@
 
 - [eta-spark-0.1.0.0](https://github.com/Jyothsnasrinivas/eta-spark) - Eta bindings for Apache Spark
 - [eta-jdbc-0.1.0.0](https://github.com/Jyothsnasrinivas/eta-jdbc) - Eta bindings for JBDC.
+- [wai-servlet-0.1.0.0](https://github.com/jneira/wai-servlet) - Library to integrate [eta](http://eta-lang.org) [wai](https://github.com/yesodweb/wai) applications with the [servlet api](http://docs.oracle.com/javaee/7/api/javax/servlet/package-summary.html)
 
 ## Submitting a Package
 

@@ -1,6 +1,11 @@
 # Index for Etlas, the Eta Package Repository
 
-# Submitting a Package
+## Package Listing
+
+- [eta-spark-0.1.0.0](https://github.com/Jyothsnasrinivas/eta-spark) - Eta bindings for Apache Spark
+- [eta-jdbc-0.1.0.0](https://github.com/Jyothsnasrinivas/eta-jdbc) - Eta bindings for JBDC.
+
+## Submitting a Package
 
 Suppose you want to upload a package you've written, `somepackage-0.1.0.1` to the Etlas repo.
 
@@ -50,7 +55,9 @@ git checkout -b somepackage-0.1.0.1
 pkg: somepackage 0.1.0.1 p# packages/somepackage/0.1.0.1/somepackage.cabal
 ```
 
-9. Commit & push your changes.
+9. Add an entry for your package to the listing in `README.md`.
+
+10. Commit & push your changes.
 
 ```
 git add .
@@ -58,4 +65,4 @@ git commit -m "Releasing somepackage-0.1.0.1"
 git push
 ```
 
-10. Submit a pull request to this repo.
+11. Submit a pull request to this repo.

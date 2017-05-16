@@ -49,7 +49,7 @@ git checkout -b somepackage-0.1.0.1
 
 7. Copy the Cabal file from (2) into `packages/somepackage/0.1.0.1/somepackage.cabal`.
 
-8. Add a new entry into the `.epm-index` file:
+8. Add a new entry into the `00-index.tar` file (you can open it in a text editor):
 
 ```
 pkg: somepackage 0.1.0.1 p# packages/somepackage/0.1.0.1/somepackage.cabal

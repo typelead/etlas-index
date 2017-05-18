@@ -10,6 +10,8 @@
 - [eta-jdbc-0.1.0.0](https://github.com/Jyothsnasrinivas/eta-jdbc) - Eta bindings for JBDC.
 - [wai-servlet-0.1.0.0](https://github.com/jneira/wai-servlet) - Library to integrate [eta](http://eta-lang.org) [wai](https://github.com/yesodweb/wai) applications with the [servlet api](http://docs.oracle.com/javaee/7/api/javax/servlet/package-summary.html)
 - [wai-servlet-handler-jetty-0.1.0.0](https://github.com/jneira/wai-servlet-handler-jetty) - Wai handler to run [eta](http://eta-lang.org) [wai](https://github.com/yesodweb/wai) applications in a embedded jetty server
+- [eta-kafka-client-0.5.0](https://github.com/haskell-works/eta-kafka-client) - Kafka client
+- [eta-kafka-conduit-0.5.0](https://github.com/haskell-works/eta-kafka-conduit) - Conduit bindings for Kafka client
 
 ## Submitting a Package
 

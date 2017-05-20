@@ -1,0 +1,41 @@
+name:                wai-servlet-handler-jetty
+version:             0.1.0.0
+-- synopsis:            
+description:         Wai handler to run wai applications in a embedded jetty server
+-- license:             
+license-file:        LICENSE
+author:              jneira
+maintainer:          atreyu.bbb@gmail.com
+-- copyright:           
+category:            Web
+build-type:          Simple
+extra-source-files:  ChangeLog.md, README.md
+cabal-version:       >=1.10
+source-repository this
+  type:              git
+  location:          https://github.com/jneira/wai-servlet-handler-jetty 
+  tag:               0.1.0.0 
+                     
+library
+  exposed-modules:     Network.Wai.Servlet.Handler.Jetty
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:       base >=4.8 && <4.9
+                     , wai
+                     , wai-servlet
+  hs-source-dirs:      src
+  default-language:    Haskell2010
+  maven-depends:       javax.servlet:javax.servlet-api:3.1.0
+                     , org.eclipse.jetty:jetty-server:9.4.5.v20170502
+
+executable wai-servlet-jetty-example		
+  main-is:             Main.hs		
+  -- other-modules:       		
+  -- other-extensions:    		
+  build-depends:       base >=4.8 && <4.9		
+                     , wai-servlet-handler-jetty
+                     , wai-servlet		
+                     , wai		
+  hs-source-dirs:      examples		
+  default-language:    Haskell2010		
+  ghc-options:         "-threaded"

@@ -1,0 +1,39 @@
+name:                wai-servlet
+version:             0.1.1.0
+-- synopsis:            
+-- description:         
+license:             BSD3
+license-file:        LICENSE
+author:              Javier Neira Sanchez
+maintainer:          Javier Neira Sanchez <atreyu.bbb@gmail.com>
+-- copyright:           
+category:            Web
+build-type:          Simple
+-- extra-source-files:  
+cabal-version:       >=1.10
+source-repository this
+  type:              git
+  location:          https://github.com/jneira/wai-servlet 
+  tag:               0.1.1.0
+library
+  exposed-modules:     Network.Wai.Servlet
+                     , Network.Wai.Servlet.Examples 
+  other-modules:       Network.Wai.Servlet.Request
+                     , Network.Wai.Servlet.Response
+  -- other-extensions:    
+  build-depends:       base >= 4.8 && < 4.9
+                     , wai
+                     , network
+                     , http-types
+                     , blaze-builder
+                     , bytestring
+                     , case-insensitive
+                     , hashable
+                     , utf8-string
+  hs-source-dirs:      src      
+  default-language:    Haskell2010
+  maven-depends:       javax.servlet:servlet-api:2.5
+  if impl(eta >= 0.0.9)
+    java-sources:        java/Utils.java
+  else
+    java-sources:        java/eta-0.0.6/Utils.java

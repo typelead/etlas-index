@@ -4,4 +4,6 @@ pkg: wai-servlet 0.1.0.0 p# packages/wai-servlet/0.1.0.0/wai-servlet.cabal
 pkg: wai-servlet 0.1.1.0 p# packages/wai-servlet/0.1.1.0/wai-servlet.cabal
 pkg: wai-servlet-handler-jetty 0.1.0.0 p# packages/wai-servlet-handler-jetty/0.1.0.0/wai-servlet-handler-jetty.cabal
 pkg: eta-kafka-client 0.5.0 p# packages/eta-kafka-client/0.5.0/eta-kafka-client.cabal
+pkg: eta-kafka-client 0.5.1 p# packages/eta-kafka-client/0.5.1/eta-kafka-client.cabal
 pkg: eta-kafka-conduit 0.5.0 p# packages/eta-kafka-conduit/0.5.0/eta-kafka-conduit.cabal
+pkg: eta-kafka-conduit 0.5.1 p# packages/eta-kafka-conduit/0.5.1/eta-kafka-conduit.cabal

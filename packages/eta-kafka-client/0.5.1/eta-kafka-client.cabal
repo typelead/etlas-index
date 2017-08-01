@@ -1,0 +1,67 @@
+name:                eta-kafka-client
+version:             0.5.1
+synopsis:            Eta bindings to Kafka
+-- description:
+homepage:            http://github.com/haskell-works/eta-kafka-client
+license:             BSD3
+license-file:        LICENSE
+author:              Alexey Raga
+maintainer:          alexey.raga@gmail.com
+-- copyright:
+category:            Database, Eta, Experimental
+build-type:          Simple
+-- extra-source-files:
+cabal-version:       >=1.10
+description:         Kafka bingings for Eta (http://eta-lang.org/)
+  .
+  Features include:
+  .
+  * Consumer groups: auto-rebalancing consumers
+  .
+  * Keyed and keyless messages producing/consuming
+
+
+source-repository head
+  type:     git
+  location: https://github.com/haskell-works/eta-kafka-client
+  tag: 0.5.1
+
+executable kafka-client-example
+  main-is:             Main.hs
+  -- other-modules:
+  -- other-extensions:
+  build-depends:       base >=4.8 && <4.9,
+                       ghc-prim,
+                       bifunctors,
+                       bytestring,
+                       containers,
+                       transformers,
+                       eta-kafka-client
+  hs-source-dirs:      example
+  default-language:    Haskell2010
+  maven-depends:       org.apache.kafka:kafka-clients:0.10.1.1
+  maven-repos:         http://packages.confluent.io/maven/
+
+library
+  exposed-modules:     Kafka
+                     , Kafka.Consumer
+                     , Kafka.Producer
+                     , Kafka.Types
+                     , Kafka.Consumer.Types
+                     , Kafka.Consumer.ConsumerProperties
+                     , Kafka.Producer.Types
+                     , Kafka.Producer.ProducerProperties
+
+  other-modules:       Kafka.Consumer.Bindings
+                     , Kafka.Producer.Bindings
+                     , Kafka.Internal.JPattern
+  -- other-extensions:
+  build-depends:       base >=4.8 && <4.9,
+                       bifunctors,
+                       bytestring,
+                       transformers,
+                       containers
+  hs-source-dirs:      src
+  default-language:    Haskell2010
+  maven-depends:       org.apache.kafka:kafka-clients:0.10.1.1
+  maven-repos:         http://packages.confluent.io/maven/

@@ -8,7 +8,7 @@ pkg: eta-kafka-client 0.5.1 p# packages/eta-kafka-client/0.5.1/eta-kafka-client.
 pkg: eta-kafka-conduit 0.5.0 p# packages/eta-kafka-conduit/0.5.0/eta-kafka-conduit.cabal
 pkg: eta-kafka-conduit 0.5.1 p# packages/eta-kafka-conduit/0.5.1/eta-kafka-conduit.cabal
 pref-ver: QuickCheck <= 2.10.1
-pref-ver: aeson <= 1.2.2.0
+pref-ver: aeson <= 1.2.3.0
 pref-ver: aeson-pretty <= 0.8.5
 pref-ver: ansi-terminal <= 0.6.2.3
 pref-ver: array <= 0.5.2.0

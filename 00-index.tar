@@ -70,6 +70,7 @@ pref-ver: terminal-size <= 0.3.2.1
 pref-ver: text <= 1.2.2.2
 pref-ver: tf-random <= 0.5
 pref-ver: time <= 1.8.0.3
+pref-ver: typed-process <= 0.2.0.0
 pref-ver: uri-bytestring <= 0.3.0.1
 pref-ver: vector <= 0.12.0.1
 pref-ver: vector-th-unbox <= 0.2.1.6

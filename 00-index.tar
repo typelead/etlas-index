@@ -43,6 +43,7 @@ pref-ver: hashable <= 1.2.6.1
 pref-ver: hashtables <= 1.2.2.1
 pref-ver: hostname <= 1.0
 pref-ver: hourglass <= 0.2.11
+pref-ver: hspec-core == 2.4.6
 pref-ver: http-api-data <= 0.3.7.1
 pref-ver: ieee754 <= 0.8.0
 pref-ver: integer-logarithms <= 1.0.2

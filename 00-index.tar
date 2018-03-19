@@ -6,8 +6,10 @@ pkg: wai-servlet 0.1.1.0 p# packages/wai-servlet/0.1.1.0/wai-servlet.cabal
 pkg: wai-servlet 0.1.2.0 p# packages/wai-servlet/0.1.2.0/wai-servlet.cabal
 pkg: wai-servlet 0.1.3.0 p# packages/wai-servlet/0.1.3.0/wai-servlet.cabal
 pkg: wai-servlet 0.1.4.0 p# packages/wai-servlet/0.1.4.0/wai-servlet.cabal
+pkg: wai-servlet 0.1.5.0 p# packages/wai-servlet/0.1.5.0/wai-servlet.cabal
 pkg: wai-servlet-handler-jetty 0.1.0.0 p# packages/wai-servlet-handler-jetty/0.1.0.0/wai-servlet-handler-jetty.cabal
 pkg: wai-servlet-handler-jetty 0.1.1.0 p# packages/wai-servlet-handler-jetty/0.1.1.0/wai-servlet-handler-jetty.cabal
+pkg: wai-servlet-handler-jetty 0.1.2.0 p# packages/wai-servlet-handler-jetty/0.1.2.0/wai-servlet-handler-jetty.cabal
 pkg: eta-kafka-client 0.5.0 p# packages/eta-kafka-client/0.5.0/eta-kafka-client.cabal
 pkg: eta-kafka-client 0.5.1 p# packages/eta-kafka-client/0.5.1/eta-kafka-client.cabal
 pkg: eta-kafka-conduit 0.5.0 p# packages/eta-kafka-conduit/0.5.0/eta-kafka-conduit.cabal
@@ -15,6 +17,7 @@ pkg: eta-kafka-conduit 0.5.1 p# packages/eta-kafka-conduit/0.5.1/eta-kafka-condu
 pkg: eta-scala-interop 0.1.0.0 p# packages/eta-scala-interop/0.1.0.0/eta-scala-interop.cabal
 pkg: eta-java-interop 0.1.0.0 p# packages/eta-java-interop/0.1.0.0/eta-java-interop.cabal
 pkg: eta-java-interop 0.1.1.0 p# packages/eta-java-interop/0.1.1.0/eta-java-interop.cabal
+pkg: eta-java-interop 0.1.3.0 p# packages/eta-java-interop/0.1.3.0/eta-java-interop.cabal
 pref-ver: Glob <= 0.9.1
 pref-ver: QuickCheck <= 2.10.1
 pref-ver: aeson <= 1.2.3.0

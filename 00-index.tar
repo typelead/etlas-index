@@ -1,4 +1,5 @@
 pkg: eta-spark 0.1.0.0 p# packages/eta-spark/0.1.0.0/eta-spark.cabal
+pkg: eta-spark-core 0.1.1.0 p# packages/eta-spark-core/0.1.1.0/eta-spark-core.cabal
 pkg: eta-jdbc 0.1.0.0 p# packages/eta-jdbc/0.1.0.0/eta-jdbc.cabal
 pkg: eta-jdbc 0.2.0.0 p# packages/eta-jdbc/0.2.0.0/eta-jdbc.cabal
 pkg: wai-servlet 0.1.0.0 p# packages/wai-servlet/0.1.0.0/wai-servlet.cabal

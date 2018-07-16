@@ -16,6 +16,7 @@ pkg: eta-kafka-client 0.5.1 p# packages/eta-kafka-client/0.5.1/eta-kafka-client.
 pkg: eta-kafka-conduit 0.5.0 p# packages/eta-kafka-conduit/0.5.0/eta-kafka-conduit.cabal
 pkg: eta-kafka-conduit 0.5.1 p# packages/eta-kafka-conduit/0.5.1/eta-kafka-conduit.cabal
 pkg: eta-scala-interop 0.1.0.0 p# packages/eta-scala-interop/0.1.0.0/eta-scala-interop.cabal
+pkg: eta-scala-interop 0.3.0.0 p# packages/eta-scala-interop/0.3.0.0/eta-scala-interop.cabal
 pkg: eta-java-interop 0.1.0.0 p# packages/eta-java-interop/0.1.0.0/eta-java-interop.cabal
 pkg: eta-java-interop 0.1.1.0 p# packages/eta-java-interop/0.1.1.0/eta-java-interop.cabal
 pkg: eta-java-interop 0.1.3.0 p# packages/eta-java-interop/0.1.3.0/eta-java-interop.cabal

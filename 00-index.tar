@@ -43,7 +43,6 @@ pref-ver: cmdargs <= 0.10.20
 pref-ver: code-page <= 0.1.3
 pref-ver: comonad <= 5.0.2
 pref-ver: containers <= 0.5.10.2
-pref-ver: contravariant <= 1.4
 pref-ver: crdt <= 10.0
 pref-ver: crypto-api <= 0.13.2
 pref-ver: cryptonite <= 0.24

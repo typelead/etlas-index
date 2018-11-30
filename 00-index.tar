@@ -98,6 +98,7 @@ pref-ver: singletons <= 2.0.1
 pref-ver: statistics <= 0.14.0.2
 pref-ver: stm-chans <= 3.0.0.4
 pref-ver: streaming-commons <= 0.1.19
+pref-ver: system-fileio == 0.3.16.3
 pref-ver: system-filepath <= 0.4.13.4
 pref-ver: tasty <= 0.11.2.5
 pref-ver: temporary <= 1.2.1.1

@@ -226,5 +226,3 @@ pref-ver: yesod-static == 1.6.0
 pref-ver: zip-archive == 0.3.3
 pref-ver: zlib == 0.6.1.2
 pref-ver: zlib-bindings == 0.1.1.5
-
-

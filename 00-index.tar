@@ -34,10 +34,12 @@ pref-ver: aeson == 0.11.0.0 || == 0.11.3.0 || == 1.1.0.0 || == 1.1.1.0 || == 1.1
 pref-ver: aeson-pretty == 0.8.0 || == 0.8.1 || == 0.8.2 || == 0.8.3 || == 0.8.4 || == 0.8.5
 pref-ver: affine == 0.1.1.0
 pref-ver: alex == 3.2.4
+pref-ver: alg == 0.2.8.0
 pref-ver: alternators == 1.0.0.0
 pref-ver: amazonka-core == 1.6.0
 pref-ver: ansi-terminal == 0.6.2.3 || == 0.6.3.1 || == 0.7.1.1 || == 0.8.0.4
 pref-ver: api-builder == 0.15.0.0
+pref-ver: appar == 0.1.5
 pref-ver: array == 0.5.1.1 || == 0.5.2.0
 pref-ver: attoparsec == 0.13.2.0 || == 0.13.2.1
 pref-ver: avro == 0.3.2.0
@@ -49,7 +51,7 @@ pref-ver: basement == 0.0.4 || == 0.0.5 || == 0.0.6
 pref-ver: basic-prelude == 0.7.0
 pref-ver: bifunctors == 5.5.3
 pref-ver: binary == 0.8.5.1
-pref-ver: blaze-builder == 0.3.3.4
+pref-ver: blaze-builder == 0.3.3.4 || == 0.4.0.0 || == 0.4.0.1 || == 0.4.0.2 || == 0.4.1.0
 pref-ver: blaze-textual == 0.2.1.0
 pref-ver: blockchain == 0.0.3
 pref-ver: bytes == 0.15.3

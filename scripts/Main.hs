@@ -21,7 +21,7 @@ getPackages = do
 
 getPreferences =
   withSystemTempDirectory "eta-hackage" $ \tmpDir -> do
-    callCommand $ "git clone https://github.com/typelead/eta-hackage " <> tmpDir
+    callCommand $ "git clone --depth 1 https://github.com/typelead/eta-hackage " <> tmpDir
     pkgVers1 <- fromPatchesFolder tmpDir
     pkgVers2 <- fromWorkingFile tmpDir
     let preferences = map toPreference

@@ -207,7 +207,7 @@ pref-ver: turtle == 1.5.10
 pref-ver: typed-process == 0.2.0.0 || == 0.2.2.0
 pref-ver: unbounded-delays == 0.1.1.0
 pref-ver: unix-time == 0.3.7
-pref-ver: unliftio == 0.2.7.0 || == 0.2.7.1
+pref-ver: unliftio == 0.2.7.0 || == 0.2.7.1 || == 0.2.8.1
 pref-ver: unordered-containers == 0.2.9.0
 pref-ver: uri-bytestring == 0.2.3.1 || == 0.2.3.2 || == 0.2.3.3 || == 0.3.0.0 || == 0.3.0.1
 pref-ver: validity == 0.7.0.0

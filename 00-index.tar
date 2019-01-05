@@ -155,6 +155,7 @@ pref-ver: network-transport == 0.4.4.0 || == 0.5.2
 pref-ver: network-uri == 2.6.0.2 || == 2.6.0.3 || == 2.6.1.0
 pref-ver: old-time == 1.1.0.3
 pref-ver: optparse-applicative == 0.13.2.0 || == 0.14.0.0 || == 0.14.2.0
+pref-ver: pandoc == 2.5
 pref-ver: pandoc-types == 1.17.5.4
 pref-ver: parsec == 3.1.13.0
 pref-ver: path-io == 1.4.0

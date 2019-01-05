@@ -3,6 +3,7 @@
 ## Quick Jump
 - [Package Listing](#package-listing)
 - [Submitting a Package](#submitting-a-package)
+- [Regenerating Index](#regenerating-index)
 
 ## Package Listing
 
@@ -74,3 +75,13 @@ git push
 ```
 
 11. Submit a pull request to this repo.
+
+# Regenerating Index
+
+You can run
+
+```
+etlas run ./scripts
+```
+
+to regenerate the index.

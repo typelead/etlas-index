@@ -1,3 +1,4 @@
+pkg: dhall-eta 1.0.0 p# packages/dhall-eta/1.0.0/dhall-eta.cabal
 pkg: eta-java-interop 0.1.0.0 p# packages/eta-java-interop/0.1.0.0/eta-java-interop.cabal
 pkg: eta-java-interop 0.1.1.0 p# packages/eta-java-interop/0.1.1.0/eta-java-interop.cabal
 pkg: eta-java-interop 0.1.3.0 p# packages/eta-java-interop/0.1.3.0/eta-java-interop.cabal

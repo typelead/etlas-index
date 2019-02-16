@@ -1,4 +1,4 @@
-let types = ./types/package.dhall
+let types = ./types.dhall
 
 let empty = [] : List Text
 

@@ -1,3 +1,1 @@
-{ IndexedPackage = ./IndexedPackage.dhall
-, Package = ./BasicPackage.dhall
-}
+{ name : Text, version: Text }

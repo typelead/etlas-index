@@ -1,4 +1,4 @@
-let types = ./types/package.dhall
+let types = ./types.dhall
 
 in    λ(P : Type)
     → λ(pkg : types.Package → P)
